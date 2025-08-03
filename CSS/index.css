@@ -1,1 +1,977 @@
+/* reset style */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* search about bioard-box */
+}
 
+/* global style */
+
+/* background-image */
+
+.container {
+    width: 100%;
+    background-image: url(../img/green-natural-background-with-wooden-surface-free-image.webp);
+    background-size: 100% 100%;
+    margin-top: 0%;
+
+
+}
+a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.darknessphoto {
+    background-color: rgba(0, 0, 0, 0.308);
+}
+
+#section1 {
+
+    margin: 0% 12%;
+
+}
+
+.line1 {
+    width: 9%;
+    margin-left: 0;
+    margin-bottom: 5%;
+    border: solid .5px, white;
+
+}
+
+.box1 {
+    width: 55%;
+    float: left;
+
+
+}
+
+.sp {
+    color: orange;
+    font-weight: lighter;
+
+}
+
+.logo {
+    margin-bottom: 5%;
+    font-family: system-ui;
+    font-size: 70px;
+    padding: 2%;
+    color: white;
+
+
+}
+
+.box1 h3 {
+    margin-bottom: 6%;
+    max-width: 70%;
+    font-family: sans-serif;
+    font-size: x-large;
+    /* min-width: 100%; */
+    color: white;
+}
+
+.box1 p {
+    margin-bottom: 9%;
+    /* max-width: 74%; */
+    color: white;
+
+}
+
+.box1 button {
+    border: solid 2px white;
+    padding: 2% 6%;
+    background-color: rgba(240, 248, 255, 0);
+    color: white;
+    margin-bottom: 25%;
+
+
+}
+
+/* card2 */
+.box2 {
+    float: right;
+    /* vertical-align: top;  doesnot work with float?*/
+    /* padding-right: 8%; */
+    margin: 2%;
+    margin-top: 6%;
+    border: solid rgba(0, 0, 0, 0.059);
+    width: 30%;
+    border-radius: 2%;
+    background-color: white;
+}
+
+/* .e-form  منقعش اجمع التلاته تحت الفورم بس */
+/* {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+} */
+
+.box2 h4 {
+    margin: 0% 0% 10%;
+    text-align: center;
+    /* border: ridge rgba(0, 0, 0, 0.096); */
+    width: 100%;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    background-color: rgba(116, 116, 116, 0.041);
+    border-radius: 5%;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+
+}
+
+.box2 input {
+    width: 80%;
+    margin-bottom: 15%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: ridge;
+    padding-bottom: 3%;
+    padding-right: 30%;
+    margin-right: 6%;
+    margin-left: 8%;
+    border-color: rgb(243, 240, 240);
+}
+
+.box2 a {
+    width: 100%;
+
+    padding-top: 4%;
+    padding-left: 38%;
+    padding-bottom: 4%;
+    border: ridge rgba(0, 0, 0, 0.151);
+    display: block;
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+    border-radius: 3%;
+    /* ليه هنا ظبطت معايا و قبل ما احط ال  بلوك مكانش راضي يظبط حدود الكلمة؟ */
+    text-decoration: none;
+    /* new */
+    color: aliceblue;
+    background-color: rgb(234, 157, 14);
+
+
+
+}
+
+.clear {
+    clear: both;
+}
+
+/* nav */
+.nav {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+}
+
+#logotext {
+    font-size: xx-large;
+    font-family: system-ui;
+    float: left;
+    margin-left: 8%;
+    margin-top: .5%;
+    margin-bottom: .5%;
+}
+
+.list {
+    width: 45%;
+    float: right;
+    margin-top: 1.5%;
+    margin-bottom: .5%;
+
+
+}
+
+.elements {
+    float: left;
+    margin-left: 6%;
+    list-style: none;
+    color: white;
+}
+
+#char2 {
+    color: white
+}
+
+/* footer */
+/* section2 */
+.sec2 {
+    padding-top: 1.5%;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.text {
+    float: left;
+    width: 50%;
+    padding-left: 5%;
+
+}
+
+.sec2 h3 {
+
+
+    margin-bottom: .5%;
+    font-family: sans-serif;
+    color: rgb(13 13 14 / 73%);
+
+    margin-left: 10%;
+
+
+}
+
+.sec2 p {
+    margin-top: 0;
+    width: 60%;
+    color: #aba7a7;
+    margin-left: 10%;
+    min-width: 80%;
+}
+
+.icons {
+    font-size: 25px;
+    float: right;
+    width: 45%;
+    margin-right: 5%;
+    /* ليه مش مظبوطة زي الصورة */
+}
+
+.col {
+    color: rgba(163, 160, 160, 0.772);
+    text-decoration: none;
+    margin-left: 8%;
+
+
+}
+
+.line2 {
+    color: #b0acac;
+    box-shadow: 0px 0px 1px;
+}
+
+/* section3 */
+/* .block
+{
+ float:left;
+} */
+.div1sec3 {
+    
+    /* margin-left: 10%; */
+    width: 10%;
+   float: left;
+
+}
+.div1sec3 
+{
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.threeblocks {
+    background-color: black;
+    /* how to rwmove space between three blocks */
+
+}
+
+.sec3 {
+
+    padding: 10% 5%;
+}
+
+.div1sec3 h3 {
+       width: 100%;
+    color: white;
+    text-align: center;
+    margin-bottom: -2%;
+    font-size: medium;
+    font-family: monospace;
+    padding: 3%;
+    padding-bottom: 45%;
+    padding-top: 45%;
+    border: solid white;
+    /* how to rwmove space between three blocks */
+
+
+}
+
+.colte {
+    background: orange;
+
+}
+
+.div2sec3 {
+    /* margin-left: 5%; */
+    width:40%;
+    margin-left: 5%;
+    margin-right: 2%;
+    float: left;
+
+}
+
+.div2sec3 h3 {
+
+    margin-bottom: 10%;
+    width: 100%;
+    font-size: 20px;
+    font-family: sans-serif
+}
+
+.PAR1 {
+    margin-bottom: 5%;
+    color: #aba7a7;
+}
+
+.PAR2 {
+    color: #aba7a7;
+}
+
+.button2sec3 {
+    margin-top: 8%;
+    background-color: orange;
+    border: 1cm;
+    border-radius: 6%;
+    color: white;
+    font-weight: 600;
+    padding: 3% 3%;
+
+}
+.imagesec3
+{
+    margin-top: 7%;
+}
+
+.imagesec3 img {
+    width: 20%;
+    margin-left: 10%;
+    float: left;
+    
+
+}
+
+.real {
+    float: left;
+    /* margin-top: 20%; */
+    width:20%
+
+
+}
+
+ .reflect {
+float: left;
+    transform: scaleY(-1);
+    opacity: .3;
+    width: 20%;
+    
+} 
+
+.container2 {
+    background-color: #f8f6f6;
+}
+
+/* section4 */
+.section4 {
+    /* display: flex; */
+    background-color: #ffffff;
+
+    padding: 12% 10%;
+}
+
+/* .div1sec3 {
+    width: 70%;
+} */
+.div1sec4
+{
+     float: left;
+      width: 40%;
+}
+
+.div1sec4 img {
+   width:90%;
+    box-shadow: 0px 0px 35px rgba(152, 151, 151, 0.664);
+    border: 0cap;
+   
+    
+
+}
+
+.div2sec4 {
+    width: 50%;
+    padding-right: 1px;
+    margin-left: 8%;
+    float: left;
+
+}
+
+.stdiv2sec4 {
+    margin-bottom: 3%;
+
+}
+
+.nddiv2sec4 {
+    border: solid 1.5px orange;
+    width: 11%;
+    margin-bottom: 4%;
+}
+
+.rddiv2sec4 {
+    margin-bottom: 8%;
+    color: #aba7a7;
+
+}
+
+.fthsdiv2sec4 img {
+    border: solid orange;
+    width: 10%;
+    height: 10%;
+    padding: 2%;
+    border-radius: 50%;
+}
+
+.imgfthdiv2sec4
+{ display: inline-block;
+
+}
+
+.title1 {
+    margin-left: 5%;
+    margin-bottom: 7%;
+    margin-top: 4%;
+    display: inline-block;
+    width:70%;
+    vertical-align: middle;
+}
+
+.title2 {
+    margin-left: 5%;
+     display: inline-block;
+    width:70%;
+    vertical-align: middle;
+}
+
+.fthsdiv2sec4 b {
+    font-size: 15px;
+    font-family: sans-serif;
+
+}
+
+.tit {
+    color: #aba7a7;
+}
+
+.deftit {
+    margin-bottom: 3%;
+}
+
+.container4 {
+    background-color: #f8f6f6;
+}
+
+/* section5 */
+
+.sec5 {
+    /* display: flex; */
+    padding: 15% 10%;
+}
+.div1sec5
+{
+    float:left;
+    width:55%
+}
+
+.t1sec5 {
+
+    margin-bottom: 3%;
+}
+
+.p1sec5 {
+    font-size: medium;
+    width: 80%;
+    margin-bottom: 2%;
+    color: #aba7a7;
+}
+
+.p2sec5 {
+    font-size: medium;
+    width: 80%;
+    color: #aba7a7;
+}
+
+.div2class2 {
+    border: #aba7a7;
+    box-shadow: 0px 0px 20px black;
+    margin-left: 2%;
+    float:right;
+   width: 40%;
+}
+
+.container5 {
+    background-color: #aba7a736;
+}
+
+/* sec6 */
+.container6 {
+    background-color: white;
+}
+.middlediv
+{
+    margin-right:1% ;
+    margin-left: 2%;
+}
+.section6 {
+    padding-top: 7%;
+  
+}
+
+.div2sec6 {
+    /* display: flex; */
+    padding: 1% 1% 4% 9%;
+
+}
+
+.div1sec6 h2 {
+    text-align: center;
+    margin-bottom: 1%;
+    font-family: sans-serif;
+}
+
+.div1sec6 p {
+    text-align: center;
+    color: #b0acac;
+    margin-bottom: 5%;
+
+}
+
+.div1sec6 hr {
+    width: 6%;
+    border: solid orange 0.5px;
+    margin-bottom: 2.5%;
+    margin-left: 47%;
+}
+
+.d1d2sec6 {
+    margin-bottom: 7%;
+    width: 100%;
+    padding-left: 3%;
+    float: left;
+    width:30%
+
+}
+
+.d1d2sec6 img {
+    border: solid orange;
+    width: 50px;
+    height: 50px;
+    border-radius: 60%;
+    margin-bottom: 1%;
+    margin-left: 32%;
+    padding: 2%;
+  
+}
+
+.d1d2sec6 h4 {
+    padding-left: 20%;
+    margin-bottom: 5.5%;
+
+}
+
+.d1d2sec6 p {
+    text-align: center;
+    color: #aba7a7;
+  
+
+}
+
+.middlediv .midimg {
+    padding: 3%;
+    margin-left: 33%;
+}
+
+.middlediv h4 {
+    padding-left: 29%;
+}
+
+/* SECTION7 */
+.container7 {
+    background-color: #edecec
+}
+
+.section7 h3 {
+    /* margin-left: auto;
+margin-right: auto; */
+    margin-left: 39%;
+    font-family: monospace;
+    font-size: 27px;
+    font-weight: 400;
+    margin-bottom: 1%;
+
+}
+
+.section7 .sthr {
+    width: 5%;
+    margin-left: 47%;
+    border: solid orange 1px;
+    margin-bottom: 2%;
+}
+
+.section7 p {
+    margin-left: 37%;
+    color: #aba7a7;
+}
+
+.threedivs {
+    /* display: flex
+; */
+    margin-top: 7%;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 5%;
+}
+
+.stdivsec7 {
+    padding: 0% 3% 3%;
+    padding-bottom: 2%;
+    width: 33%;
+    float: left;
+}
+
+.nddivsec7 {
+    margin-right: 10%;
+    border: solid black;
+    padding: 2%;
+    float: left;
+    margin-left: 3%;
+    margin-right: 3%;
+    width: 33%
+}
+
+.rddivsec7 {
+    margin-right: 10%;
+    border: solid black;
+    padding: 2%;
+    float: left;
+    width: 33%;
+}
+
+.stdivsec7 .BASIC {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-left: 10%;
+    padding-right: 10%;
+    border: solid black;
+    border-bottom: solid white;
+
+}
+
+.ndblock {
+
+    background-color: black;
+    color: white;
+    padding-left: 33%;
+    padding-right: 10%;
+    padding-top: 5%;
+    border-bottom: solid orange 4PX;
+
+
+}
+
+.ndblock .ndh4 {
+
+
+    padding-bottom: 10%;
+    color: white;
+    display: inline-block;
+    border-bottom: none;
+    FONT-SIZE: 64PX;
+
+
+}
+
+.sth4 {
+    display: inline-block;
+    color: white;
+    border-bottom: none;
+    FONT-SIZE: 31PX;
+
+}
+
+.FREE {
+    padding-left: 5%;
+    padding-bottom: 10%;
+    color: rgba(255, 255, 255, 0.826);
+    font-style: italic;
+}
+
+.LISTSEC7 {
+    list-style: none;
+    border: SOLID rgba(0, 0, 0, 0.059);
+
+}
+
+.ITEMSSEC7 {
+    padding-top: 4%;
+    padding-bottom: 4%;
+    text-align: center;
+    border-bottom: SOLID rgba(0, 0, 0, 0.059) .5PX;
+    color: #aba7a7;
+    background-color: white;
+    font-size: 15PX;
+
+}
+
+.LASTITEM {
+    border-bottom: none;
+}
+
+.adjust {
+    background-color: orange;
+}
+
+.professional {
+    margin: 0% 1% -1% 1%;
+    padding-top: 6%;
+    padding-left: 29%;
+}
+
+.pro {
+    margin-right: 1%;
+    margin-left: 1%;
+}
+
+.down {
+    padding-top: 4%;
+}
+
+.sec8 {
+    background-color: white;
+}
+
+.headding {
+    padding-top: 10%;
+    font-family: fangsong;
+
+    padding-left: 20%;
+    /* which is best margin-left or margin-right */
+    margin-bottom: 2%;
+    font-size: 37px;
+    font-weight: 100;
+}
+
+.line {
+    /* padding-left: 30%;    why does this increase the line  */
+        margin-left: 46%;
+    width: 5%;
+    border: solid orange 1.5px;
+    margin-bottom: 2%;
+}
+
+.sec8 .par {
+    margin-left: 33%;
+    color: #aba7a7;
+}
+
+.div {
+    background-color: #edecec70;
+    float: left;
+    width: 25%;
+    padding: 5% 0% 5% 1%
+}
+
+.threed {
+    margin-top: 2%;
+    padding: 6%;
+
+
+
+}
+
+.mid {
+
+       margin-left: 9%;
+    margin-right: 10%;
+}
+
+.par8 {
+    color: #aba7a7;
+}
+
+.triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 18px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 17px solid #f7f7f7;
+
+
+}
+
+.t1 {
+    /* margin-top: 11%; */
+    margin-left: 3%;
+}
+
+.t2 {
+
+       margin-left: 37%;
+    margin-top: -2%;
+}
+
+.t3 {
+
+       margin-left: 72%;
+    margin-top: -1.99%;
+}
+
+.manimage {
+    width: 20%;
+    border-radius: 50%;
+    margin-left: 2%;
+}
+
+.phnam {
+
+    float: left;
+    width: 30%;
+    padding-bottom: 5%;
+        margin-left: 3%;
+}
+
+.phnam h3 {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 3%;
+}
+
+.phnam h5 {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10%;
+    margin-left: -24.5%;
+    color: #aba7a7;
+}
+
+/* section9 */
+.CONTAINER9 {
+    background-color: #aba7a7;
+    background-image: url(../img/BUILDING2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.OVERLAY {
+    background-color: rgba(0, 0, 0, 0.577);
+}
+
+.section9 {
+    /* padding: 0% 2% 2% 2%; */
+}
+
+.section9 h2 {
+    margin-left: 7%;
+    padding-top: 7%;
+    margin-bottom: 3%;
+}
+
+.section9 hr {
+    margin-left: 45%;
+    width: 5%;
+    border: solid rgb(255, 255, 255) 1.5px;
+    margin-bottom: 2%;
+
+}
+
+.section9 p {
+
+    padding-bottom: 5%;
+    margin-left: 15%;
+    color: #aba7a7;
+
+}
+
+.btn {
+    border: solid 2px white;
+    padding: 1% 5%;
+    background-color: rgba(240, 248, 255, 0);
+    color: white;
+    margin-bottom: 5%;
+    margin-left: 39%;
+}
+
+/* section10 */
+.section10 h2 {
+    margin-left: 20%;
+    padding-top: 8%;
+}
+
+.section10 hr {
+    margin-left: 46%;
+}
+
+.section10 p {
+    margin-left: 35%;
+    color: #aba7a7;
+    margin-bottom: 8%;
+}
+
+.section10 input {
+    margin-bottom: 10%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-right: 60%;
+    margin-left: 10%;
+    border-color: #e7e4e4;
+
+}
+
+.section10 .left {
+    float: left;
+    width: 50%;
+
+}
+
+.section10 textarea {
+    float: right;
+    width: 40%;
+    padding-bottom: 12.5%;
+    border: #aba7a7 solid;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    color: #aba7a7;
+    border-color: #e7e4e4;
+}
+
+.section10 button {
+    background-color: orange;
+    color: white;
+    padding: 1%;
+    margin-left: 50%;
+    border: none;
+    margin-bottom: 10%;
+}
+
+.section10 form {
+    padding: 0% 15% 0% 10%;
+}
+
+.section10 footer {
+    height: 80px;
+    background-color: black;
+   
+}
+
+.section10 .icons {
+    margin-bottom: 3%;
+    margin-right: 25%;
+    padding-top: 3%;
+}
